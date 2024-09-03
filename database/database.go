@@ -13,7 +13,7 @@ import (
 	"go.mongodb.org/mongo-driver/mongo/readpref"
 )
 
-var connectionString string = "mongodb+srv://geekisaprogrammer:geekisaprogarmmer@cluster0.kkdoz.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+var connectionString string = "YOUR_CONNECTION_STRING"
 
 type DB struct {
 	client *mongo.Client
